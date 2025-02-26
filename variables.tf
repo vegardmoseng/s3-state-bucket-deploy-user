@@ -29,3 +29,15 @@ variable "state_bucket_deployer_policy_name" {
     description = "S3 state bucket deployer policy"
     default     = null  
 }
+
+variable "state_bucket_dynamodb_table_name" {
+  type          = string
+  description   = "DynamoDB table name used for locking"
+  default       = null
+}
+
+variable "state_bucket_name" {
+  type          = string
+  description   = "S3 state bucket name"
+  default       = null
+}

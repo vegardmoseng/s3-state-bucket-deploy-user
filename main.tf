@@ -4,7 +4,7 @@ terraform {
     organization = "vmoseng_certs" 
 
     workspaces { 
-      name = "vmosengcerts-iam-bootstrap-dev" 
+      name = "s3-state-bucket-deploy-user" 
     } 
   } 
   required_providers {
